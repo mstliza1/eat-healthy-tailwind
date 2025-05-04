@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Healthy Tailwind Project</title>
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Manrope font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              fontFamily:{
+        manrope:["Manrope", "sans-serif"],
+        montserrat:["Montserrat", "sans-serif"]
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- Main Section Start -->
+    <main class="max-w-screen-xl  mx-auto px-10  lg:px-24">
+        <!-- Header Part Start -->
+        <header class="mt-10  mb-16">
+            <!-- Title Part Start  -->
+            <section class="flex flex-col md:flex-row  justify-center  items-center ">
+                <div class="w-full  md:w-1/2  text-center md:text-left ">
+                    <h1 class="font-montserrat font-extrabold text-4xl md:text-5xl  "> <span class="text-orange-300">Skip </span> The Diet, 
+                        Just Eat Healthy 
+                        With Food Network</h1>
+                        <br>
+                        <p class="text-gray-400 font-semibold  font-manrope mb-4">Imagine you don't need a diet because we provide 
+                            healthy and delicious food for you!</p>
+                            <button class=" py-2 px-3 md:py-2 px-5   rounded-full text-white bg-gradient-to-r from-orange-300  to-red-500">Order Food</button>
+                 </div>
+                 <!-- Image Part Start  -->
+                  <div class="w-full md:w-1/2  mb-24">
+                    <img class="w-full z-20" src="images/male/Hero Image.jpg" alt="">
+                  </div>
+            </section>
+        </header>
+        <!-- About Part start  -->
+            <section class="mb-16">
+                <!-- Image Part start  -->
+             <div class="flex flex-col-reverse  md:flex-row justify-center items-center  md:gap-28
+             bg-[url('./images/shapes/Frame56.jpg')]">
+                <div class="w-full md:w-1/2 ">
+                    <img class="w-full  max-w-sm h-auto mx-auto mt-8" src="images/female/Person Image.png" alt="">
+                 </div>
+               
+                 <!-- Text Part Start  -->
+                  <div class="w-full md:w-1/2 mx-auto text-center">
+                    <h1 class="font-extrabold text-gray-400 text-4xl font-Montserrat mb-8">About Me</h1>
+                    <p class="font-manrope text-gray-900 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
+                    <button class=" py-2 px-4 bg-gradient-to-r from-orange-300 to-red-600 rounded-full text-white font-bold mb-8">Contact me</button>
+                  </div>
+                 
+             </div>
+            </section>
+            <!-- My Recipies Section Start  -->
+             <section class="mb-16 ">
+              <!-- Title Part Start  -->
+               <div class="text-center">
+                <h1 class="text-4xl font-extrabold text-gray-600">My Recipies</h1>
+                <p class="font-manrope text-gray-400 mb-6 w-1/2  mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+               </div>
+              
+               <!-- Card Part Start  -->
+             <div class="flex flex-col md:flex-row gap-5">
+              <div class="bg-white shadow-lg  p-4  md:px-2   rounded-3xl ">
+                <div>
+                  <img class=" w-96   md: max-w-md  mx-auto mb-6" src="images/food/Project Cover.jpg" alt="">
+                </div>
+                <div class="text-center">
+                  <h2 class="font-bold text-gray-900 text-3xl font-Montserrat mb-4">Recipie Title</h2>
+                  <p class="text-gray-400 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg py-4 px-4 rounded-3xl ">
+              <div>
+                <img class=" w-96  md:max-w-md  mx-auto mb-4" src="images/food/Project Cover.jpg" alt="">
+              </div>
+              <div class="text-center">
+                <h2 class="font-bold text-gray-900 text-3xl font-Montserrat mb-4">Recipie Title</h2>
+                <p class="text-gray-400 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              </div>
+          </div>
+             </div>
+             </section>
+             <!-- Flowers Card Section Start  -->
+              <section class="mb-16">
+                <div class="bg-white shadow-lg px-5 py-8 text-center md:px-28 py-10 flex flex-col md:flex-row gap-10  justify-between rounded-lg">
+                  <div>
+                    <h1 class="font-bold text-4xl">700K</h1>
+                    <small class="text-gray-700">Youtube Subscribers</small>
+                  </div>
+                  <div>
+                    <h1 class="font-bold text-4xl">2.4m</h1>
+                    <small class="text-gray-700">Instagram Followers</small>
+                  </div>
+                  <div>
+                    <h1 class="font-bold text-4xl">100K</h1>
+                    <small class="text-gray-700">Dribbble Shot Likes</small>
+                  </div>
+                </div>
+              </section>
+              <!-- Footer Section Start -->
+               <footer class="mb-16">
+                <div class="bg-black text-center pb-12 pt-6 rounded-lg">
+                  <h2 class="text-gray-400 text-2xl mb-3"> <span class="text-orange-300">Eat</span> Fresh</h2>
+                  <p class="text-white">Eat healthy to live healthy. Live healthy to live happy.</p>
+                </div>
+               </footer>
+    </main>
+</body>
+</html>
